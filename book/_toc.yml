@@ -1,0 +1,9 @@
+format: jb-article
+root: index
+sections:
+- file: introduction/introduction
+- file: content/b1_mapping
+- file: content/single_transmit
+- file: content/circular_polarization
+- file: content/phase_only
+- file: content/complex_shimming

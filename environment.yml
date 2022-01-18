@@ -1,0 +1,12 @@
+name: b1
+dependencies:
+  - pip
+  - python=3.7
+  - sphinx=2.4.4
+  - pip:
+    - matplotlib==3.5.0
+    - numpy
+    - jupyter
+    - scipy
+    - jupyter-book
+    - ghp-import
