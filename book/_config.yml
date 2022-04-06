@@ -28,6 +28,7 @@ repository:
   url                         : https://github.com/shimming-toolbox/B1-shimming
   path_to_book                : "book"
   branch                      : "main"
+
 binder:
   binderhub_url               : "https://mybinder.org"
   text                        : "Launch binder"
