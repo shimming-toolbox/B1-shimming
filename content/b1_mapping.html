@@ -249,84 +249,6 @@ const thebe_selector_output = ".output, .cell_output"
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">KeyboardInterrupt</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
-<span class="ne">C</span>:\Windows\Temp\ipykernel_14692\1114906500.py in &lt;module&gt;
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> 
-<span class="ne">----&gt; </span><span class="mi">5</span> <span class="kn">from</span> <span class="nn">functions</span> <span class="kn">import</span> <span class="n">montage</span>
-
-<span class="o">~</span>\<span class="n">GitHub</span>\<span class="n">B1</span><span class="o">-</span><span class="n">shimming</span>\<span class="n">book</span>\<span class="n">content</span>\<span class="n">functions</span><span class="o">.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">scipy</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> 
-<span class="ne">----&gt; </span><span class="mi">5</span> <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">variation</span>
-<span class="g g-Whitespace">      </span><span class="mi">6</span> 
-<span class="g g-Whitespace">      </span><span class="mi">7</span> 
-
-<span class="o">~</span>\<span class="n">miniconda3</span>\<span class="n">envs</span>\<span class="n">b1</span>\<span class="n">lib</span>\<span class="n">site</span><span class="o">-</span><span class="n">packages</span>\<span class="n">scipy</span>\<span class="n">stats</span>\<span class="fm">__init__</span><span class="o">.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="g g-Whitespace">    </span><span class="mi">439</span> <span class="s2">&quot;&quot;&quot;</span>
-<span class="g g-Whitespace">    </span><span class="mi">440</span><span class="s2"> </span>
-<span class="ne">--&gt; </span><span class="mi">441</span><span class="s2"> from .stats import *</span>
-<span class="g g-Whitespace">    </span><span class="mi">442</span><span class="s2"> from .distributions import *</span>
-<span class="g g-Whitespace">    </span><span class="mi">443</span><span class="s2"> from .morestats import *</span>
-
-<span class="s2">~\miniconda3\envs</span><span class="se">\b</span><span class="s2">1\lib\site-packages\scipy\stats\stats.py in &lt;module&gt;</span>
-<span class="g g-Whitespace">     </span><span class="mi">35</span><span class="s2"> from numpy import array, asarray, ma</span>
-<span class="g g-Whitespace">     </span><span class="mi">36</span><span class="s2"> </span>
-<span class="ne">---&gt; </span><span class="mi">37</span><span class="s2"> from scipy.spatial.distance import cdist</span>
-<span class="g g-Whitespace">     </span><span class="mi">38</span><span class="s2"> from scipy.ndimage import measurements</span>
-<span class="g g-Whitespace">     </span><span class="mi">39</span><span class="s2"> from scipy._lib._util import (check_random_state, MapWrapper,</span>
-
-<span class="s2">~\miniconda3\envs</span><span class="se">\b</span><span class="s2">1\lib\site-packages\scipy\spatial\__init__.py in &lt;module&gt;</span>
-<span class="g g-Whitespace">     </span><span class="mi">99</span><span class="s2"> from ._spherical_voronoi import SphericalVoronoi</span>
-<span class="g g-Whitespace">    </span><span class="mi">100</span><span class="s2"> from ._plotutils import *</span>
-<span class="ne">--&gt; </span><span class="mi">101</span><span class="s2"> from ._procrustes import procrustes</span>
-<span class="g g-Whitespace">    </span><span class="mi">102</span><span class="s2"> from ._geometric_slerp import geometric_slerp</span>
-<span class="g g-Whitespace">    </span><span class="mi">103</span><span class="s2"> </span>
-
-<span class="s2">~\miniconda3\envs</span><span class="se">\b</span><span class="s2">1\lib\site-packages\scipy\spatial\_procrustes.py in &lt;module&gt;</span>
-<span class="g g-Whitespace">      </span><span class="mi">7</span><span class="s2"> </span>
-<span class="g g-Whitespace">      </span><span class="mi">8</span><span class="s2"> import numpy as np</span>
-<span class="ne">----&gt; </span><span class="mi">9</span><span class="s2"> from scipy.linalg import orthogonal_procrustes</span>
-<span class="g g-Whitespace">     </span><span class="mi">10</span><span class="s2"> </span>
-<span class="g g-Whitespace">     </span><span class="mi">11</span><span class="s2"> </span>
-
-<span class="s2">~\miniconda3\envs</span><span class="se">\b</span><span class="s2">1\lib\site-packages\scipy\linalg\__init__.py in &lt;module&gt;</span>
-<span class="g g-Whitespace">    </span><span class="mi">194</span><span class="s2"> </span>
-<span class="g g-Whitespace">    </span><span class="mi">195</span><span class="s2"> from .misc import *</span>
-<span class="ne">--&gt; </span><span class="mi">196</span><span class="s2"> from .basic import *</span>
-<span class="g g-Whitespace">    </span><span class="mi">197</span><span class="s2"> from .decomp import *</span>
-<span class="g g-Whitespace">    </span><span class="mi">198</span><span class="s2"> from .decomp_lu import *</span>
-
-<span class="s2">~\miniconda3\envs</span><span class="se">\b</span><span class="s2">1\lib\site-packages\scipy\linalg</span><span class="se">\b</span><span class="s2">asic.py in &lt;module&gt;</span>
-<span class="g g-Whitespace">      </span><span class="mi">8</span><span class="s2"> import numpy as np</span>
-<span class="g g-Whitespace">      </span><span class="mi">9</span><span class="s2"> from numpy import atleast_1d, atleast_2d</span>
-<span class="ne">---&gt; </span><span class="mi">10</span><span class="s2"> from .flinalg import get_flinalg_funcs</span>
-<span class="g g-Whitespace">     </span><span class="mi">11</span><span class="s2"> from .lapack import get_lapack_funcs, _compute_lwork</span>
-<span class="g g-Whitespace">     </span><span class="mi">12</span><span class="s2"> from .misc import LinAlgError, _datacopied, LinAlgWarning</span>
-
-<span class="s2">~\miniconda3\envs</span><span class="se">\b</span><span class="s2">1\lib\site-packages\scipy\linalg</span><span class="se">\f</span><span class="s2">linalg.py in &lt;module&gt;</span>
-<span class="g g-Whitespace">      </span><span class="mi">9</span><span class="s2"> # is raised at the first attempt to use the resources.</span>
-<span class="g g-Whitespace">     </span><span class="mi">10</span><span class="s2"> try:</span>
-<span class="ne">---&gt; </span><span class="mi">11</span><span class="s2">     from . import _flinalg</span>
-<span class="g g-Whitespace">     </span><span class="mi">12</span><span class="s2"> except ImportError:</span>
-<span class="g g-Whitespace">     </span><span class="mi">13</span><span class="s2">     _flinalg = None</span>
-
-<span class="nn">~\miniconda3\envs\b1\lib\importlib\_bootstrap.py</span> in <span class="ni">_find_and_load</span><span class="nt">(name, import_)</span>
-
-<span class="nn">~\miniconda3\envs\b1\lib\importlib\_bootstrap.py</span> in <span class="ni">_find_and_load_unlocked</span><span class="nt">(name, import_)</span>
-
-<span class="nn">~\miniconda3\envs\b1\lib\importlib\_bootstrap.py</span> in <span class="ni">_load_unlocked</span><span class="nt">(spec)</span>
-
-<span class="nn">~\miniconda3\envs\b1\lib\importlib\_bootstrap.py</span> in <span class="ni">module_from_spec</span><span class="nt">(spec)</span>
-
-<span class="nn">~\miniconda3\envs\b1\lib\importlib\_bootstrap_external.py</span> in <span class="ni">create_module</span><span class="nt">(self, spec)</span>
-
-<span class="ne">KeyboardInterrupt</span>: 
-</pre></div>
-</div>
-</div>
 </div>
 <p>In order to produce the MR signal used to reconstruct an image, we use electromagnetic elements to produce the <span class="math notranslate nohighlight">\(B_1\)</span> magnetic field that tilts the spins out of their equilibrium position along <span class="math notranslate nohighlight">\(B_0\)</span>. To efficiently tilt the spins in the transverse plane, <span class="math notranslate nohighlight">\(B_1\)</span> must oscillate at the Larmor Frequency of these spins, which depends on their gyromagnetic ratio <span class="math notranslate nohighlight">\(\gamma\)</span> and the <span class="math notranslate nohighlight">\(B_0\)</span> field strength. While returning to their equilibrium position (relaxation), the spins emit the measured MR signal which also oscillates at the Larmor Frequency.</p>
 <p>Every transmit (Tx) element produces its own radio-frequency (RF) field, which can be seen as a complex spatial distribution (it has a <strong>magnitude</strong> and a <strong>phase</strong>).</p>
@@ -358,6 +280,9 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">(</span><span class="n">rect</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">))</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/b1_mapping_3_0.png" src="../_images/b1_mapping_3_0.png" />
 </div>
 </div>
 <p>By looking at the “hotspots” on the magnitude images (the bright yellow-green areas), we can observe that the Tx elements are regularly placed all around the patient’s head in order to achieve circular polarization excitation.</p>
