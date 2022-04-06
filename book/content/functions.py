@@ -118,7 +118,8 @@ def phase_only_shimming(b1_maps, mask=None, initial_weights=None):
 
     # The cost function is CoV(|B1+|). Shim weights will be determined by minimizing it
     def cost_function(phases):
-        return variation(np.abs(b1_roi @ (np.exp(1j * phases))))
+        b1_combined=np.abs(b1_roi @ (np.exp(1j * phases)))
+        return b1_combined.std()/b1_combined.mean()
 
     shimmed_phases = scipy.optimize.minimize(cost_function, initial_weights).x  # Finding the optimized phase values
     return np.ones(n_Tx) * np.exp(1j * shimmed_phases)  # Computing the corresponding complex shim weights
